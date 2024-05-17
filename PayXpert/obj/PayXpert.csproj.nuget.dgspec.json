@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\prave\\OneDrive\\Documents\\tech training\\c#\\PayXpert\\PayXpert.csproj": {}
+    "C:\\Users\\prave\\OneDrive\\Documents\\tech training\\c#\\Project-PayXpert\\PayXpert\\PayXpert.csproj": {}
   },
   "projects": {
-    "C:\\Users\\prave\\OneDrive\\Documents\\tech training\\c#\\PayXpert\\PayXpert.csproj": {
+    "C:\\Users\\prave\\OneDrive\\Documents\\tech training\\c#\\Project-PayXpert\\PayXpert\\PayXpert.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\prave\\OneDrive\\Documents\\tech training\\c#\\PayXpert\\PayXpert.csproj",
+        "projectUniqueName": "C:\\Users\\prave\\OneDrive\\Documents\\tech training\\c#\\Project-PayXpert\\PayXpert\\PayXpert.csproj",
         "projectName": "PayXpert",
-        "projectPath": "C:\\Users\\prave\\OneDrive\\Documents\\tech training\\c#\\PayXpert\\PayXpert.csproj",
+        "projectPath": "C:\\Users\\prave\\OneDrive\\Documents\\tech training\\c#\\Project-PayXpert\\PayXpert\\PayXpert.csproj",
         "packagesPath": "C:\\Users\\prave\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\prave\\OneDrive\\Documents\\tech training\\c#\\PayXpert\\obj\\",
+        "outputPath": "C:\\Users\\prave\\OneDrive\\Documents\\tech training\\c#\\Project-PayXpert\\PayXpert\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\prave\\AppData\\Roaming\\NuGet\\NuGet.Config",

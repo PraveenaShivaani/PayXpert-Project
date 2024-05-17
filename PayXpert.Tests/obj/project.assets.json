@@ -7061,11 +7061,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\prave\\OneDrive\\Documents\\tech training\\c#\\PayXpert.Tests\\PayXpert.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\prave\\OneDrive\\Documents\\tech training\\c#\\Project-PayXpert\\PayXpert.Tests\\PayXpert.Tests.csproj",
       "projectName": "PayXpert.Tests",
-      "projectPath": "C:\\Users\\prave\\OneDrive\\Documents\\tech training\\c#\\PayXpert.Tests\\PayXpert.Tests.csproj",
+      "projectPath": "C:\\Users\\prave\\OneDrive\\Documents\\tech training\\c#\\Project-PayXpert\\PayXpert.Tests\\PayXpert.Tests.csproj",
       "packagesPath": "C:\\Users\\prave\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\prave\\OneDrive\\Documents\\tech training\\c#\\PayXpert.Tests\\obj\\",
+      "outputPath": "C:\\Users\\prave\\OneDrive\\Documents\\tech training\\c#\\Project-PayXpert\\PayXpert.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\prave\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7082,8 +7082,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\prave\\OneDrive\\Documents\\tech training\\c#\\PayXpert\\PayXpert.csproj": {
-              "projectPath": "C:\\Users\\prave\\OneDrive\\Documents\\tech training\\c#\\PayXpert\\PayXpert.csproj"
+            "C:\\Users\\prave\\OneDrive\\Documents\\tech training\\c#\\Project-PayXpert\\PayXpert\\PayXpert.csproj": {
+              "projectPath": "C:\\Users\\prave\\OneDrive\\Documents\\tech training\\c#\\Project-PayXpert\\PayXpert\\PayXpert.csproj"
             }
           }
         }
