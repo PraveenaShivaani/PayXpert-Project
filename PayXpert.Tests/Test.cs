@@ -2,6 +2,7 @@
 using NUnit.Framework;
 using PayXpert.Services;
 using PayXpert.Validation;
+using System;
 
 
 namespace PayXpert.Tests
@@ -58,11 +59,34 @@ namespace PayXpert.Tests
 
         [TestCase("10")]
 
-        public void ChechEmployeeId(string num)
+        public void CheckEmployeeId(string num)
         {
             int expected = 0;  
             int num1 = valid.EmployeeIDValidation(num);
             Assert.That(expected, Is.EqualTo(num1));
+        }
+
+        //Calculate Gross Salary For Employee
+
+        [TestCase(3500,500)]
+        public void CalculateGrossSalary(int num1,int num2)
+        {
+            int expected = 4000;
+            int num = payroll.CalculateGrossSalary(num1,num2);
+            Assert.That(expected, Is.EqualTo(num));
+        }
+
+        // Process Payroll For Employee
+        [TestCase("2023-05-10", "2023-07-20")]
+        public void TestMethod(string date1, string date2)
+        {
+            // Parse the string parameters to DateTime
+            DateTime givenDate1 = DateTime.Parse(date1);
+            DateTime givenDate2 = DateTime.Parse(date2);
+
+            bool time =  payroll.CheckTimePeriod(givenDate1, givenDate2);
+            // Now you can use givenDate1 and givenDate2 as DateTime objects
+            Assert.That(time,Is.False);
         }
     }
 }

@@ -91,5 +91,11 @@ namespace PayXpert.Services
                 $"Over Time Pay :: {payroll.OvertimePay} \n Net Salary :: {payroll.NetSalary} \n");
             }
         }
+
+        //Gross Calculation
+        public int CalculateGrossSalary(int amount, int overtime)
+        {
+            return amount + overtime;
+        }
     }
 }

@@ -58,5 +58,7 @@ namespace PayXpert.Services
             Console.WriteLine($"Tax ID :: {tax.TaxID}  \n Employee ID :: {tax.EmployeeID} \n  " +
                 $"Taxable Income :: {tax.TaxableIncome} \n TaxAmount :: {tax.TaxAmount} \n");
         }
+
+
     }
 }
